@@ -38,7 +38,8 @@ pub use barriers::{
 	AllowExplicitUnpaidExecutionFrom, AllowHrmpNotificationsFromRelayChain,
 	AllowKnownQueryResponses, AllowSubscriptionsFrom, AllowTopLevelPaidExecutionFrom,
 	AllowUnpaidExecutionFrom, DenyReserveTransferToRelayChain, DenyThenTry, IsChildSystemParachain,
-	RespectSuspension, TakeWeightCredit, TrailingSetTopicAsId, WithComputedOrigin,
+	IsParentsOnly, IsSiblingSystemParachain, RespectSuspension, TakeWeightCredit,
+	TrailingSetTopicAsId, WithComputedOrigin,
 };
 
 mod controller;
